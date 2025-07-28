@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contato.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logos/1.svg" alt="Logo do site"></a>
+        </div>
+        <a href="../index.html">Início</a>
+        <div class="dropdown">
+            <button class="dropbtn">Mitologias</button>
+            <div class="dropdown-content">
+                <a href="egipcia.html">Egípcia</a>
+                <a href="grega.html">Grega</a>
+                <a href="japonesa.html">Japonesa</a>
+                <a href="maia.html">Maia</a>
+                <a href="nordica.html">Nórdica</a>
+                <a href="romana.html">Romana</a>
+            </div>
+        </div>
+        <a href="mapa.html">Mapa Interativo</a>
+        <a href="../paginas/sobre.html">Sobre</a>
+        <div class="spacer"></div>
+        <a href="contato.html">Contato</a>
+    </div>
+    <section class="contato-container">
+        <h2>Fale Conosco</h2>
+        <form action="#" method="post" class="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required minlength="2" maxlength="50" pattern="[A-Za-zÀ-ÿ\s]+"
+                title="Apenas letras e espaços.">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required minlength="3" maxlength="100">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" maxlength="500"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+
+    <footer>
+        &copy; 2025 IFSP. Todos os direitos reservados. Ana Luiza & Gabrielle
+    </footer>
+</body>
+
+</html>

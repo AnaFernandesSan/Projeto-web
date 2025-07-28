@@ -1,0 +1,196 @@
+ .mitologia-content {
+            margin: 30px auto;
+            max-width: 1200px;
+            padding: 40px;
+        }
+
+        .mitologia-header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .mitologia-header h1 {
+            color: #8b5a2b;
+            font-family: 'Cinzel', serif;
+            font-size: 3rem;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .mitologia-header p {
+            color: #666;
+            font-size: 1.3rem;
+            font-style: italic;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #d4af37;
+            color: #5a2c0a;
+            font-family: 'Cinzel', serif;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #8b5a2b;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin: 30px 0 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        img{
+            height: 250px;
+            width: auto;
+        }
+
+        /* Melhorias para os cards */
+        .god-card,
+        .creature-card,
+        .curiosity-card {
+            background: linear-gradient(to bottom right, #fff, #f9f9f9);
+            border-left: 5px solid #d4af37;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .god-card:hover,
+        .creature-card:hover,
+        .curiosity-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .god-card h3,
+        .creature-card h3,
+        .curiosity-card h3 {
+            color: #8b5a2b;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            margin-top: 0;
+        }
+
+        /* Estilo para listas dentro dos cards */
+        .god-card ul,
+        .creature-card ul,
+        .curiosity-card ul {
+            padding-left: 20px;
+        }
+
+        .god-card li,
+        .creature-card li,
+        .curiosity-card li {
+            margin-bottom: 8px;
+        }
+
+        /* Destaque para nomes importantes */
+        strong {
+            color: #5a2c0a;
+        }
+
+        table,
+        .comparacoes table {
+            background-color: white;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        
+        }
+
+        th{
+            background-color: #8b5a2b;
+            color: white;
+        }
+        th,
+        .comparacoes th {
+          
+            padding: 1rem;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .comparacoes th {
+            background-color: #5a2c0a;;
+            
+        }
+
+        td,
+        .comparacoes td {
+            padding: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+
+        .comparacoes td {
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .mitologia-content {
+                margin: 20px 15px;
+                padding: 25px;
+            }
+
+            .mitologia-header h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+
+.botoes{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.botao {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #555;
+}

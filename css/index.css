@@ -1,0 +1,164 @@
+/* Página Inicial */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #f8eec7, #f8eec7);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #5c4033;
+}
+
+.hero p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #3b2f2f;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #5c4033;
+}
+
+
+
+.card-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+padding: 4rem 2rem;
+background-image: url("../images/fundo/2.svg");
+background-size: contain;
+
+}
+
+.card-link {
+text-decoration: none;
+color: inherit;
+}
+
+.card {
+background: white;
+padding: 2rem;
+border-radius: 1rem;
+width: 250px;
+height: 250px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-icon {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+/*Linha do tempo*/
+.timeline-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.timeline-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #5c4033;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 20px;
+  border-left: 3px solid #590072;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #590072;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.timeline-content {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.timeline-content p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+@media (max-width: 870px) {
+  .card-container{
+    background-image: url("../images/fundo/2.svg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.6em;
+  }
+
+  .hero p {
+    font-size: 0.95em;
+  }
+}

@@ -1,0 +1,82 @@
+header {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 40px solid transparent;
+  border-image: url("../images/fundo/3.svg") 100 round;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1,
+h2 {
+  color: #5c4033;
+  margin-bottom: 15px;
+}
+
+.sobre-nos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texto {
+  flex: 1 1 300px;
+  font-size: 20px;
+
+}
+
+.texto p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+
+.redes-sociais h2 {
+  margin-bottom: 20px;
+  color: #5c4033;
+  font-size: 24px;
+  border-bottom: 2px solid #590072;
+  padding-bottom: 8px;
+}
+
+.redes-sociais ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.redes-sociais li {
+  font-size: 18px;
+  color: #333;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #590072;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.redes-sociais a:hover {
+  opacity: 0.9;
+}
+
+footer{
+  margin-top: 143px;
+}

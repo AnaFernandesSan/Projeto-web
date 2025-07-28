@@ -1,0 +1,98 @@
+/*MAPA*/
+
+
+.mapa-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mapa-base {
+  width: 100%;
+  display: block;
+}
+
+.bolinha {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #b30000;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Cores por mitologia */
+.bolinha.grega {
+  background-color: #f0cc04;
+  
+}
+
+.bolinha.nordica {
+  background-color: #ff6600;
+  
+}
+
+.bolinha.egipcia {
+  background-color: #ff0000;
+  
+}
+
+.bolinha.japonesa {
+  background-color: #1ff70b;
+ 
+}
+
+.bolinha.maia {
+  background-color: #062af7;
+  
+}
+.bolinha.celta {
+  background-color: #fd14ca; 
+}
+
+.bolinha.romana {
+  background-color: #7e24df;
+}
+
+.bolinha:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  text-align: center;
+  color: #5c4033;
+  text-shadow: 1px 1px #fff8dc;
+}
+
+/* Container da imagem e áreas clicáveis */
+.container {
+  position: relative;
+  max-width: 100%;
+}
+
+.mapa {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 4px solid #a0522d;
+  filter: sepia(0.6) contrast(1.1) brightness(0.95);
+}
+
+/* Legenda*/
+.legenda {
+  font-size: 18px;
+  list-style: none;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.legenda li {
+  padding: 5px 0;
+}
+
+footer{
+  margin-top: 40px;
+}

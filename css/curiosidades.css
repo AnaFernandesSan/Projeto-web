@@ -1,0 +1,134 @@
+
+header {
+    text-align: center;
+    padding: 40px 20px 30px;
+    color: #5c4033;
+    border-radius: 0 0 15px 15px;
+   
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+    letter-spacing: 1.5px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+/* container da lista */
+.curiosidades-lista {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+.curiosidades-lista ul {
+    list-style: none; 
+    padding: 0;
+}
+
+
+.curiosidades-lista ul li {
+    background: #fff8ef;
+    border-left: 6px solid #590072;
+    padding: 18px 25px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease;
+}
+
+
+.curiosidades-lista ul li:hover {
+    background: #f5e8d5;
+}
+
+
+.curiosidades-lista ul li strong {
+    display: block;
+    font-size:20px;
+    margin-bottom: 6px;
+    color: #5c4033;
+}
+
+@media (max-width: 768px) {
+    header {
+      padding: 30px 15px 20px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    .curiosidades-lista {
+      padding: 15px 10px;
+    }
+  
+    .curiosidades-lista ul li {
+      padding: 15px 18px;
+    }
+  
+    .curiosidades-lista ul li strong {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 40px 20px;
+    }
+  
+    header h1 {
+      font-size: 2.3rem;
+      letter-spacing: 1px;
+    }
+  
+    header p {
+      font-size: 18px;
+    }
+  
+    .curiosidades-lista {
+      padding: 20px 15px;
+    }
+  
+    .curiosidades-lista ul li {
+      padding: 16px 20px;
+    }
+  
+    .curiosidades-lista ul li strong {
+      font-size: 18.5px;
+    }
+  
+    .curiosidades-lista ul li {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 17px;
+    }
+  
+    .curiosidades-lista ul li {
+      font-size: 15.5px;
+      padding: 14px 18px;
+    }
+  
+    .curiosidades-lista ul li strong {
+      font-size: 17px;
+    }
+  }
+  

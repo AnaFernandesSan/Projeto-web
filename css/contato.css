@@ -1,0 +1,49 @@
+.contato-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+    
+  .contato-container h2 {
+    text-align: center;
+    color: #5c4033;
+    margin-bottom: 20px;
+  }
+  
+  .form-contato label {
+    display: block;
+    margin: 12px 0 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-contato input,
+  .form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .form-contato button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #590072;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-contato button:hover {
+    background-color: #a801d6;
+  }
+  
+footer{
+  margin-top: 215px;
+}
